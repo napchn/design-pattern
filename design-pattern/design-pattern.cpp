@@ -4,6 +4,7 @@
 //#include "factory.h"
 //#include "abstract_factory.h"
 //#include "builder.h"
+//#include "prototype.h"
 
 #include "design-pattern.h"
 
@@ -11,6 +12,15 @@ using namespace std;
 
 int main()
 {
+	// Prototype
+	//CHNOrder order;
+	//USOrder order;
+	//order.SetId("1002");
+	//order.SetName("Visual Studio Code");
+	//order.SetQuantity(512);
+	//OrderManager manager;
+	//manager.SaveOrder(&order);
+
 	// Builder
 	//FileHeader header = {"A680J232", "3/14/2024"};
 	//std::list<FileBody> contents = {
